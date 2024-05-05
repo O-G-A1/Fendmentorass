@@ -1,0 +1,101 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Grenze+Gotisch:wght@100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face{
+    font-family: Poppins;
+    src: url(../css/fonts/Poppins-Regular.ttf);
+}
+
+div.whole{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    background-color: rgb(255, 122, 122);
+    background-image: url(./bg-intro-desktop.png);
+    width: 950px;
+    height: 500px;
+}
+div.infoleft, div.rightform{
+    display: inline-block;
+}
+div.rightform{
+    position: relative;
+    top: 90px;
+    left: 50px;
+    translate: 100px;
+}
+div > a{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+    padding: 10px 58px;
+    font-size: 10px;
+    font-family: Poppins, sans-serif;
+    border-radius: 4px;
+    box-shadow: 0px 5px rgba(62, 60, 73, 0.171);
+}
+div.rightform div:first-of-type{
+    margin-bottom: 30px;
+}
+form{
+    background-color: white;
+    width: 320px;
+    position: relative;
+    height: 290px;
+    border-radius: 4px;
+    box-shadow: 0px 5px rgba(62, 60, 73, 0.171);
+}
+form > input{
+    padding: 5px 55px;
+    position: relative;
+    left: 6%;
+    margin-bottom: 15px;
+    font-family: Poppins, sans-serif;
+
+}
+form > input:first-of-type{
+    margin-top: 20px;
+}
+form p{
+    font-size: 7px;
+    text-align: center;
+    color: rgba(185, 182, 211, 0.509);
+    font-family: Poppins, sans-serif;
+
+}
+div.infoleft{
+    position: relative;
+    left: 10%;
+    top: 25px;
+}
+div.infoleft h2{
+    font-size: 33px;
+    color: white;
+    margin-bottom: 15px;
+    font-family: Poppins, sans-serif;
+}
+div.infoleft p{
+    font-size: 11px;
+    color: white;
+    font-family: Poppins, sans-serif;
+}
+form > input:last-of-type{
+    padding: 10px 78px;
+    font-size: 11px;
+    color: white;
+    background-color: rgb(56, 204, 140);
+    border: 2px solid hsl(154, 59%, 51%);
+    border-radius: 4px;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 5px;
+
+}
+p > a{
+    text-decoration: none;
+    color: rgba(255, 122, 122, 0.669);
+}
